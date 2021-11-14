@@ -1,0 +1,11 @@
+# .venv環境作成
+python -m venv .venv
+
+# 仮想環境のアクティベート
+.venv\Scripts\activate.bat
+
+# pip のアップグレード
+python -m pip install --upgrade pip
+
+# requirements.txt でインストール
+pip install -r requirements.txt
